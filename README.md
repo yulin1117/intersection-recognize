@@ -1,7 +1,7 @@
 # intersection-recognize
 Here’s a structured GitHub README for your project based on the provided files:
 
-Image Processing and Recognition with CNN
+## Image Processing and Recognition with CNN
 
 This repository contains a set of Python scripts and Jupyter notebooks for image classification and recognition using Convolutional Neural Networks (CNNs). The project focuses on augmenting image datasets, splitting images into smaller segments, building classification models, and recognizing objects in images. These scripts are designed to facilitate the process of image preprocessing and model training for various machine learning tasks.
 
@@ -22,7 +22,7 @@ Features
 	•	CNN Model Training: Train Convolutional Neural Networks to classify and recognize objects in images.
 	•	Recognition and Classification: Recognize and classify objects in images using a pre-trained model.
 
-Installation
+## Installation
 
 	1.	Clone the repository:
 
@@ -40,27 +40,27 @@ pip install -r requirements.txt
 
 
 
-Usage
+## Usage
 
-Image Augmentation
+### Image Augmentation
 
 The aug_main.py script is used for augmenting the dataset by applying various transformations to the images to improve model robustness.
 
 python aug_main.py --input_dir /path/to/images --output_dir /path/to/save/augmented_images
 
-Image Splitting
+### Image Splitting
 
 The split_to_small_img.py script splits large images into smaller patches, useful for tasks where high-resolution images need to be analyzed in smaller parts.
 
 python split_to_small_img.py --input_image /path/to/image --output_dir /path/to/save/splits
 
-Model Training
+### Model Training
 
 The classify_image.py script is used to build and train a CNN model for image classification.
 
 python classify_image.py --train_dir /path/to/training/data --epochs 50
 
-Recognition Model
+### Recognition Model
 
 The Recognize_Model.ipynb notebook demonstrates how to apply the trained CNN model to recognize objects in new images.
 Simply open the notebook and run the cells to load the trained model and make predictions on the test set.
@@ -72,14 +72,14 @@ Project Files
 	•	classify_image.py: Script for building and training a CNN model.
 	•	Recognize_Model.ipynb: Jupyter notebook for applying the recognition model to classify images.
 
-Results
+## Results
 
 The trained CNN model achieves high accuracy in image classification tasks, with robust performance after dataset augmentation. The image splitting technique also enhances the precision of object recognition by allowing the model to focus on smaller, detailed segments of the images.
 
-Contributing
+## Contributing
 
 Contributions are welcome! Feel free to open issues or submit pull requests to improve the project.
 
-License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
